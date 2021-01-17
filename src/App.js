@@ -3,15 +3,15 @@ import React from 'react'
 import { styledProvider } from '@material-ui/styles'
 import CssBaseLine  from '@material-ui/core/CssBaseline'
 import GlobalStyle from './commos/styles/global-styles'
+import Main from './container/main/index' 
+
 
 function App() {
   return (
-    <styledProvider>
+    <styledProvider injectFirt>
       <CssBaseLine />
       <GlobalStyle />
-      <div >
-      teste
-     </div>
+      <Main /> 
     </styledProvider>
     
   );
