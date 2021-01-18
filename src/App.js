@@ -8,12 +8,13 @@ import Main from './container/main/index'
 
 function App() {
   return (
+    <>
     <styledProvider injectFirt>
       <CssBaseLine />
       <GlobalStyle />
       <Main /> 
     </styledProvider>
-    
+    </>
   );
 }
 

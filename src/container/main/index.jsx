@@ -6,6 +6,7 @@ import { ContainerStyled } from './style'
 
 function Main() {
     const [ data, setData ] = useState({})
+    // eslint-disable-next-line no-unused-vars
     const [country, setContry] = useState('brazil')
     
     const getCovidData = useCallback((country) => {
